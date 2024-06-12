@@ -27,6 +27,8 @@ To start using the PubMed Web Scraper, simply clone this repository and follow t
 ## Performance Considerations
 Please note that the scraping process may take some time, particularly if the search query returns a large volume of results. However, the scraper is optimized for efficiency, utilizing techniques such as multithreading to minimize processing time.
 
+Please be aware that the provided code was executed within the Google Colab platform. If you intend to run it on a different platform, ensure that you install the necessary dependencies tailored to that platform.
+
 ## Dependencies
 #### requests: 
 For making HTTP requests to the PubMed website.
