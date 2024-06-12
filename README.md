@@ -4,7 +4,7 @@ Welcome to the PubMed Web Scraper repository! This tool is designed to streamlin
 
 ## How It Works
 ### User Input: 
-The scraper first prompts the user to input their search term, specifying the details they want to extract from PubMed. This could include journal names, author details, PubMed IDs, citations, or any combination thereof.
+The scraper first prompts the user to input their search term, specifying the details they want to extract from PubMed. This could include anything related to medical or pubmed data may it be journal names, author details, PubMed IDs, citations, or any combination or any medical term thereof.
 
 ### Data Retrieval: 
 Once the search term is provided, the scraper initiates the process of data retrieval. It constructs the appropriate URL for the PubMed search query and proceeds to scrape the search results page using BeautifulSoup and requests libraries.
@@ -28,9 +28,13 @@ To start using the PubMed Web Scraper, simply clone this repository and follow t
 Please note that the scraping process may take some time, particularly if the search query returns a large volume of results. However, the scraper is optimized for efficiency, utilizing techniques such as multithreading to minimize processing time.
 
 ## Dependencies
-requests: For making HTTP requests to the PubMed website.
-bs4 (Beautiful Soup): For parsing HTML content and extracting data from web pages.
-pandas: For organizing and manipulating the scraped data into a structured format.
+#### requests: 
+For making HTTP requests to the PubMed website.
+#### bs4 (Beautiful Soup): 
+For parsing HTML content and extracting data from web pages.
+#### pandas: 
+For organizing and manipulating the scraped data into a structured format.
+
 ## Contribution
 We welcome contributions from the community to enhance and improve this tool further. Whether it's adding new features, optimizing performance, or fixing bugs, your contributions are highly appreciated. Please refer to the contribution guidelines in the repository for more information on how to get involved.
 
