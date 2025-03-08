@@ -37,11 +37,18 @@ For parsing HTML content and extracting data from web pages.
 #### pandas: 
 For organizing and manipulating the scraped data into a structured format.
 
+---
+
+## V2 Update
+- Now scrapes the Abstract of each article as well.
+- Cleans Abstract text, removing unnecessary characters like \n, \t, etc.
+- Sample output is saved in pubmed_data.csv.
+
 ## Contribution
 We welcome contributions from the community to enhance and improve this tool further. Whether it's adding new features, optimizing performance, or fixing bugs, your contributions are highly appreciated. Please refer to the contribution guidelines in the repository for more information on how to get involved.
 
 ## Feedback
-Your feedback is essential in helping us improve the PubMed Web Scraper. If you encounter any issues, have suggestions for new features, or simply want to share your experience using the tool, don't hesitate to reach out to us through the GitHub repository's issue tracker.
+Your feedback is essential in helping us improve the PubMed Web Scraper. If you encounter any issues, have suggestions for new features, or simply want to share your experience using the tool, don't hesitate to reach out through the GitHub repository's issue tracker.
 
 
 
